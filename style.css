@@ -11,6 +11,13 @@ body {
   border-top: 10px solid #1098ad;
 }
 
+.container {
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
 .main-header {
   background-color: #e6e6e6;
   /* padding: 20px;
@@ -18,14 +25,15 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 nav {
   font-size: 18px;
 }
 
-article{
-  margin-bottom:60px;
+article {
+  margin-bottom: 60px;
 }
 
 .post-header {
@@ -38,6 +46,7 @@ aside {
   /* padding-top: 50px;
   padding-bottom: 50px; */
   padding: 50px 0;
+  width: 500px;
 }
 
 h1,
@@ -59,8 +68,8 @@ h2 {
 
 h3 {
   font-size: 30px;
-  margin:bottom:20px;
-  margin-top:40px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 h4 {
@@ -115,9 +124,9 @@ li:last-child {
   list-style: none;
 }
 
-body {
-  /* background-color: gray; */
-}
+/* body {
+   background-color: gray;
+} */
 /* .first-li {
   font-weight: bold;
 } */
@@ -128,9 +137,9 @@ li:first-child {
 li:last-child {
   font-style: italic;
 }
-li:nth-child(even) {
-  /* color: red; */
-}
+/* li:nth-child(even) {
+  color: red;
+} */
 /* Misconception: this won't work! */
 article p:first-child {
   color: red;
@@ -156,6 +165,11 @@ a:active {
 }
 /* LVHA>link>visited>hover>active */
 
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
 /* Resolving conflicts */
 /* #copyright {
   color: red;
@@ -174,4 +188,3 @@ footer p {
 nav p {
   font-size: 18px;
 } */
-
