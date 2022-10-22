@@ -20,6 +20,7 @@ h2 {
   font-size: 22px;
   font-weight: bold;
   padding: 15px;
+  position: relative;
 }
 
 .price {
@@ -70,4 +71,46 @@ li {
 }
 p {
   margin-bottom: 10px;
+}
+
+h2::after {
+  content: "SALE";
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  padding: 7px 15px;
+  top: -25px;
+  left: -30px;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+}
+
+.boxes nav {
+  height: 20px;
+  width: 20px;
+  margin-top: 15px;
+  margin-right: 10px;
+  display: inline-block;
+  padding: 4px;
+}
+.box1 {
+  background-color: red;
+}
+.box2 {
+  background-color: blue;
+}
+.box3 {
+  background-color: black;
+}
+.box4 {
+  background-color: yellow;
+}
+.box5 {
+  background-color: green;
+}
+.box6 {
+  background-color: brown;
 }
